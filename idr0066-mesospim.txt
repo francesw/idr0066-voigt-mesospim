@@ -1,0 +1,303 @@
+﻿# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.
+
+# STUDY DESCRIPTION SECTION
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"
+
+Comment[IDR Study Accession]	# leave blank
+Study Title	The mesoSPIM initiative – open-source light-sheet microscopes for imaging cleared tissue
+Study Type	# leave blank
+Study Type Term Source REF	# leave blank
+Study Type Term Accession	# leave blank
+Study Description	The mesoscale selective plane illumination microscope (mesoSPIM) designed in this study was tested with various cleared tissue samples.
+Study Organism	Mus musculus, Gallus gallus domesticus
+Study Organism Term Source REF	NCBI:txid10090, NCBI:txid9031
+Study Organism Term Accession	# leave blank
+Study Experiments Number	4
+Study External URL	http://mesospim.org/
+Study Public Release Date	2019-8-1
+
+# Study Publication
+Study PubMed ID	# fill in if known
+Study Publication Title	The mesoSPIM initiative – open-source light-sheet microscopes for imaging cleared tissue
+Study Author List	Fabian F. Voigt, Daniel Kirschenbaum, Evgenia Platonova, Stéphane Pagès, Robert A. A. Campbell, Rahel Kastli, Martina Schaettin, Ladan Egolf, Alexander van der Bourg, Philipp Bethge, Karen Haenraets, Noémie Frézel, Thomas Topilko,  Paola Perin, Daniel Hillier, Sven Hildebrand, Anna Schueth, Alard Roebroeck, Botond Roska, Esther Stoeckli, Roberto Pizzala, Nicolas Renier, Hanns Ulrich Zeilhofer, Theofanis Karayannis, Urs Ziegler, Laura Batti, Anthony Holtmaat, Christian Lüscher,  Adriano Aguzzi, and Fritjof Helmchen
+Study PMC ID	# fill in if known
+Study DOI	# fill in if known
+
+# Study Contacts
+Study Person Last Name	Voigt
+Study Person First Name	Fabian
+Study Person Email	voigt@hifo.uzh.ch
+Study Person Address	Winterthurerstrasse 190, 8054 Zurich
+Study Person ORCID	0000-0002-7108-2176
+Study Person Roles	submitter
+
+# Study License and Data DOI
+Study License	# leave blank
+Study License URL	# leave blank
+Study Data Publisher	# leave blank
+Study Data DOI	# leave blank
+
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+
+
+# EXPERIMENT SECTION
+"# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment"
+
+Experiment Number	"1"
+Comment[IDR Experiment Name]	# leave blank
+Experiment Description	Comparison of whole-mouse brain data acquired from a CLARITY-cleared VIP-tdTomato mouse with and without ASLM mode engaged
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 2048x2048x1937	Total Tb: 0.030
+Experiment Example Images	"# if you have a favourite image from the screen, list it here.  We may use this image to highlight your screen"
+Experiment Imaging Method	Light-sheet Microscopy, SPIM
+Experiment Imaging Method Term Source REF	Fbbi
+Experiment Imaging Method Term Accession	FBbi:00000369
+Experiment Comments	561 nm excitation laser, emission filter: 561LP Edge Basic, AHF.
+
+# assay files
+Experiment Assay File	idr0000-VIP-tdTomato-ASLM-assays.txt
+Experiment Assay File Format	tab-delimited text
+Assay Experimental Conditions	"# if there were any experimental conditions some cells were grown under as part of the study enter the information here e.g. different environmental stress conditions, or mutant background compared to wild type."
+Assay Experimental Conditions Term Source REF	# leave blank
+Assay Experimental Conditions Term Accession	# leave blank
+Quality Control Description	# a brief description of the kind of quality control measures that were taken (if applicable)
+
+# Protocols
+Protocol Name	growth protocol	treatment protocol	image acquistion and feature extraction protocol	data analysis protocol
+Protocol Type	growth protocol	treatment protocol	image acquistion and feature extraction protocol	data analysis protocol
+Protocol Type Term Source REF	EFO	EFO
+Protocol Type Term Accession	EFO_0003789	EFO_0003969
+Protocol Description The brain from a 6 week old VIPCre-tdTomato ((Viptm1(cre)Zjh/J); B6.Cg-Gt(ROSA)26Sortm14(CAG-tdTomato)Hze/J) mouse
+was extracted after transcardial perfusion with PBS followed by an ice-cold hydrogel solution  (1% PFA, 4% acrylamide,
+0.05% bis-acrylamide). The brains were dissected and post-fixed  in the same hydrogel solution for 24h at 4°C. The samples
+were then degassed using a dessicator  before hydrogel polymerization was induced at 37°C for 2-3hours. Following the
+polymerization, excess hydrogel was removed from the brains and they were immersed in 40mL of 8% SDS and kept shaking
+at room temperature until the tissue was cleared sufficiently (30+ days for an adult animal). Finally, after 2-4 washes in
+PBS, the brains were put into a self-made refractive index matching solution (RIMS, Yang et al 2014) for the last clearing step.
+They were left to euqilibrate in 5mL of  RIMS  for at least 4 days before being imaged. After clearing, brains were attached
+to a small weight and loaded into a 10×20×45 mm3 quartz cuvette (UQ-205, Portmann Instruments), then submerged in RIMS
+and imaged using the mesoSPIM. The sample cuvette was immersed in a 40×40×40 mm3 quartz cuvette (UQ-753, Portmann Instruments)
+filled with index-matching oil (19569, Code 50350, Cargille, nD=1.45), which allows sample XYZ movements and
+rotations without refocusing the detection path. This set of animal experiments and procedures were performed
+in accordance with standard ethical guidelines and were approved by the Cantonal Veterinary Office of the Canton of Zurich.
+The excitation was set to 561 nm, emission filter: 561LP Edge Basic, AHF.
+
+# Phenotypes
+Phenotype Name
+Phenotype Description
+Phenotype Score Type
+Phenotype Term Source REF	CMPO
+Phenotype Term Name
+Phenotype Term Accession
+
+#  Processed Data Files
+Processed Data File Name
+Processed Data File Format		
+Processed Data File Description
+Processed Data Column Name
+Processed Data Column Type
+Processed Data Column Annotation Level
+Processed Data Column Description
+Processed Data Column Link To Assay File
+
+# Feature Level Data Files (give individual file details unless there is one file per well)
+Feature Level Data File Name	# list any feature level table files here
+Feature Level Data File Format	# a description of the table
+Feature Level Data File Description	# tab-delimited text or other format
+Feature Level Data Column Name	"# list all the columns in the table, each column in the table should be in a separate column here"
+Feature Level Data Column Description	# describe the values in each column
+
+Experiment Number	"2"
+Comment[IDR Experiment Name]	# leave blank
+Experiment Description	Imaging a whole mouse central nervous system with the mesoSPIM 
+Experiment Size	5D Images: 	###TBD###TBD###TBD### Average Image Dimension (XYZCT): 2048x2048x1937	Total Tb: 0.030
+Experiment Example Images	"# if you have a favourite image from the screen, list it here.  We may use this image to highlight your screen"
+Experiment Imaging Method	Light-sheet Microscopy, SPIM
+Experiment Imaging Method Term Source REF	Fbbi
+Experiment Imaging Method Term Accession	FBbi:00000369
+Experiment Comments	561 nm excitation laser, emission filter: 561LP Edge Basic, AHF.
+
+# assay files
+Experiment Assay File	###TBD###TBD###TBD### idr0000-VIP-tdTomato-ASLM-assays.txt
+Experiment Assay File Format	tab-delimited text
+Assay Experimental Conditions	"# if there were any experimental conditions some cells were grown under as part of the study enter the information here e.g. different environmental stress conditions, or mutant background compared to wild type."
+Assay Experimental Conditions Term Source REF	# leave blank
+Assay Experimental Conditions Term Accession	# leave blank
+Quality Control Description	# a brief description of the kind of quality control measures that were taken (if applicable)
+
+# Protocols
+Protocol Name	growth protocol	treatment protocol	image acquistion and feature extraction protocol	data analysis protocol
+Protocol Type	growth protocol	treatment protocol	image acquistion and feature extraction protocol	data analysis protocol
+Protocol Type Term Source REF	EFO	EFO
+Protocol Type Term Accession	EFO_0003789	EFO_0003969
+Protocol Description Briefly, the central nervous system from mice expressing EGFP in glycinergic neurons was 
+dissected and cleared using the XCLARITY protocol. Mice (GlyT2::eGFP (Tg(Scl6a5-EGFP)1Uze)69, were perfused 
+transcardially with 10 ml of artificial cerebrospinal fluid (ACSF: 125 mM NaCl, 2.5 mM KCl, 1.25 mM NaH2PO4, 25 mM 
+NaHCO3, 1 mM MgCl2, 2 mM CaCl2, 20 mM glucose equilibrated with 95% O2, 5% CO2) at room temperature (RT) followed by 
+20 ml of RT 4% paraformaldehyde (PFA, in 0.1 M sodium phosphate buffer, pH 7.4). The perfusion was performed using a 
+gravity perfusion setup. Brain 1493 and spinal cord attached were dissected and put in 4% PFA overnight. They 
+were then put in 4% acrylamide (161–0140; Bio-Rad) and 0.25% VA-044 (017–19362; Novachem) in PBS at 4°C. They were 
+then incubated for 3 hours at 37°C for acrylamide polymerization, washed overnight at 37°C in clearing solution 
+(200 mM SDS (L3371; Sigma-Aldrich) and 200 mM 1497 boric acid (L185094; Sigma-Aldrich), pH 8.5), and electrophoresed 
+in clearing solution using an X-CLARITY Tissue Clearing System (Logos Biosystems) for 8 hours at 1.2 A constant current, 
+temperature <37°C, and 100 rpm pump speed. The samples were incubated in approximately 88% Histodenz (D2158; Sigma-Aldrich) 
+solution in PBS (refractive index 1501 adjusted to 1.457) overnight, and mounted for imaging in the same solution. 
+To accommodate the whole CNS, the sample was placed in a custom quartz imaging cuvette (10×20×120 mm3,
+Portmann Instruments AG) and then placed in a custom 40×40×120 mm3 quartz immersion cuvette (Portmann Instruments AG). To ease 
+mounting inside the sample cuvette, the sample was attached to a 1×13 cm strip of black aluminum foil (Thorlabs BKF12) 
+using quick glue. This set of animal experiments and procedures were performed
+in accordance with standard ethical guidelines and were approved by the Cantonal Veterinary Office of the Canton of Zurich.
+
+# Phenotypes
+Phenotype Name
+Phenotype Description
+Phenotype Score Type
+Phenotype Term Source REF	CMPO
+Phenotype Term Name
+Phenotype Term Accession
+
+#  Processed Data Files
+Processed Data File Name
+Processed Data File Format		
+Processed Data File Description
+Processed Data Column Name
+Processed Data Column Type
+Processed Data Column Annotation Level
+Processed Data Column Description
+Processed Data Column Link To Assay File
+
+# Feature Level Data Files (give individual file details unless there is one file per well)
+Feature Level Data File Name	# list any feature level table files here
+Feature Level Data File Format	# a description of the table
+Feature Level Data File Description	# tab-delimited text or other format
+Feature Level Data Column Name	"# list all the columns in the table, each column in the table should be in a separate column here"
+Feature Level Data Column Description	# describe the values in each column
+
+Experiment Number	"3"
+Comment[IDR Experiment Name]	# leave blank
+Experiment Description	Imaging a whole mouse central nervous system with the mesoSPIM 
+Experiment Size	5D Images: 	###TBD###TBD###TBD### Average Image Dimension (XYZCT): 2048x2048x1937	Total Tb: 0.030
+Experiment Example Images	"# if you have a favourite image from the screen, list it here.  We may use this image to highlight your screen"
+Experiment Imaging Method	Light-sheet Microscopy, SPIM
+Experiment Imaging Method Term Source REF	Fbbi
+Experiment Imaging Method Term Accession	FBbi:00000369
+Experiment Comments	###TBD###TBD###TBD## 561 nm excitation laser, emission filter: 561LP Edge Basic, AHF.
+
+# assay files
+Experiment Assay File	###TBD###TBD###TBD### idr0000-VIP-tdTomato-ASLM-assays.txt
+Experiment Assay File Format	tab-delimited text
+Assay Experimental Conditions	"# if there were any experimental conditions some cells were grown under as part of the study enter the information here e.g. different environmental stress conditions, or mutant background compared to wild type."
+Assay Experimental Conditions Term Source REF	# leave blank
+Assay Experimental Conditions Term Accession	# leave blank
+Quality Control Description	# a brief description of the kind of quality control measures that were taken (if applicable)
+
+# Protocols
+Protocol Name	growth protocol	treatment protocol	image acquistion and feature extraction protocol	data analysis protocol
+Protocol Type	growth protocol	treatment protocol	image acquistion and feature extraction protocol	data analysis protocol
+Protocol Type Term Source REF	EFO	EFO
+Protocol Type Term Accession	EFO_0003789	EFO_0003969
+Protocol Description The brain from a TPH2Cre-tdTomato mouse (Tg(Tph2-cre)RH35Gsat/Mmucd; B6.Cg-Gt(ROSA)26Sortm14(CAG-tdTomato)Hze/J) 
+was extracted after transcardial perfusion with PBS followed by an ice-cold hydrogel solution  (1% PFA, 4% acrylamide,
+0.05% bis-acrylamide). The brains were dissected and post-fixed  in the same hydrogel solution for 24h at 4°C. The samples
+were then degassed using a dessicator  before hydrogel polymerization was induced at 37°C for 2-3hours. Following the
+polymerization, excess hydrogel was removed from the brains and they were immersed in 40mL of 8% SDS and kept shaking
+at room temperature until the tissue was cleared sufficiently (30+ days for an adult animal). Finally, after 2-4 washes in
+PBS, the brains were put into a self-made refractive index matching solution (RIMS, Yang et al 2014) for the last clearing step.
+They were left to euqilibrate in 5mL of  RIMS  for at least 4 days before being imaged. After clearing, brains were attached
+to a small weight and loaded into a 10×20×45 mm3 quartz cuvette (UQ-205, Portmann Instruments), then submerged in RIMS
+and imaged using the mesoSPIM. The sample cuvette was immersed in a 40×40×40 mm3 quartz cuvette (UQ-753, Portmann Instruments)
+filled with index-matching oil (19569, Code 50350, Cargille, nD=1.45), which allows sample XYZ movements and
+rotations without refocusing the detection path. This set of animal experiments and procedures were performed
+in accordance with standard ethical guidelines and were approved by the Cantonal Veterinary Office of the Canton of Zurich.
+The excitation was set to 561 nm, emission filter: 561LP Edge Basic, AHF.
+
+# Phenotypes
+Phenotype Name
+Phenotype Description
+Phenotype Score Type
+Phenotype Term Source REF	CMPO
+Phenotype Term Name
+Phenotype Term Accession
+
+#  Processed Data Files
+Processed Data File Name
+Processed Data File Format		
+Processed Data File Description
+Processed Data Column Name
+Processed Data Column Type
+Processed Data Column Annotation Level
+Processed Data Column Description
+Processed Data Column Link To Assay File
+
+# Feature Level Data Files (give individual file details unless there is one file per well)
+Feature Level Data File Name	# list any feature level table files here
+Feature Level Data File Format	# a description of the table
+Feature Level Data File Description	# tab-delimited text or other format
+Feature Level Data Column Name	"# list all the columns in the table, each column in the table should be in a separate column here"
+Feature Level Data Column Description	# describe the values in each column
+
+Experiment Number	"4"
+Comment[IDR Experiment Name]	# leave blank
+Experiment Description	Imaging a chicken embryo with the mesoSPIM 
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 3540x4451x2977	Total Tb: 0.0329
+Experiment Example Images	ExpD_chicken_embryo_MIP.tif
+Experiment Imaging Method	Light-sheet Microscopy, SPIM
+Experiment Imaging Method Term Source REF	Fbbi
+Experiment Imaging Method Term Accession	FBbi:00000369
+Experiment Comments	A 7-day old chicken embryo was stained for neurofilament, cleared with benzyl alcohol and benzyl benzoate (BABB),  
+and imaged at zoom 4x (3.3 mm FOV, 4x6 tiles, 0.8 mm overlap). The excitation laser line was 561 nm, detection using a 561 nm longpass 
+filter (561LP Edge Basic, AHF). The resulting data was fused in BigStitcher, downsampled 2x, and converted to the Imaris file format.
+
+# assay files
+Experiment Assay File	idr0066-chicken-assays.txt
+Experiment Assay File Format	tab-delimited text
+Assay Experimental Conditions	"# if there were any experimental conditions some cells were grown under as part of the study enter the information here e.g. different environmental stress conditions, or mutant background compared to wild type."
+Assay Experimental Conditions Term Source REF	# leave blank
+Assay Experimental Conditions Term Accession	# leave blank
+Quality Control Description	# a brief description of the kind of quality control measures that were taken (if applicable)
+
+# Protocols
+Protocol Name	growth protocol	treatment protocol	image acquistion and feature extraction protocol	data analysis protocol
+Protocol Type	growth protocol	treatment protocol	image acquistion and feature extraction protocol	data analysis protocol
+Protocol Type Term Source REF	EFO	EFO
+Protocol Type Term Accession	EFO_0003789	EFO_0003969
+Protocol Description The embryo was sacrificed at day 7 of development and incubated in 4% paraformaldehyde 
+for 2 hours at room temperature. For best results, the embryo was kept in constant, gentle motion throughout 
+the staining procedure. Incubation was at 4°C. The tissue was permeabilized in 1% Triton X-100/PBS for 15 hours, 
+followed by an overnight incubation in 20 mM lysine in 0.1 M sodium phosphate, pH 7.3. Then the embryo was rinsed 
+with five changes of PBS. Non-specific binding was blocked using 10% FCS (fetal calf serum) in PBS for 48 hours. 
+The primary antibody mouse anti-neurofilament (1:1500, RMO270, Invitrogen 13-0700) was added for 60 hours. The 
+primary antibody was removed and the tissue rinsed with ten changes of PBS and an additional incubation overnight. 
+After re-blocking in FCS/PBS for 15 hours, the embryo was incubated with the secondary antibody goat anti-mouse IgG-Cy3 
+(1:500, Jackson ImmunoResearch 115-165-003) for 48 hours. In a next step, the embryo was washed ten times with PBS 
+followed by incubation overnight in PBS. For imaging the tissue was dehydrated in a methanol gradient (25%, 50%, 
+75% in H2O and 2x 100%, 2 hours each step) and cleared using 1:2 benzyl alcohol: benzyl benzoate (BABB) solution 
+overnight (again gentle shaking is recommended for dehydration and clearing). The tissue and staining are 
+stable for months when kept at 4°C in the dark. This set of animal experiments and procedures were performed
+in accordance with standard ethical guidelines and were approved by the Cantonal Veterinary Office of the Canton of Zurich.
+
+# Phenotypes
+Phenotype Name
+Phenotype Description
+Phenotype Score Type
+Phenotype Term Source REF	CMPO
+Phenotype Term Name
+Phenotype Term Accession
+
+#  Processed Data Files
+Processed Data File Name
+Processed Data File Format		
+Processed Data File Description
+Processed Data Column Name
+Processed Data Column Type
+Processed Data Column Annotation Level
+Processed Data Column Description
+Processed Data Column Link To Assay File
+
+# Feature Level Data Files (give individual file details unless there is one file per well)
+Feature Level Data File Name	# list any feature level table files here
+Feature Level Data File Format	# a description of the table
+Feature Level Data File Description	# tab-delimited text or other format
+Feature Level Data Column Name	"# list all the columns in the table, each column in the table should be in a separate column here"
+Feature Level Data Column Description	# describe the values in each column
+
