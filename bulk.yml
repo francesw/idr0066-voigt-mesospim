@@ -1,0 +1,8 @@
+---
+continue: true
+transfer: "ln_s"
+exclude: "clientpath"
+skip: "all"
+columns:
+  - target
+  - path
