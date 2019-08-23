@@ -1,1 +1,5 @@
-Project:name:idr0066-voigt-mesospim/experimentB/Dataset:name:ExpB_whole_cns	/uod/idr/filesets/idr0066-voigt-mesospim/20190821-ftp/ExperimentB/data/
+Project:name:idr0066-voigt-mesospim/experimentB/Dataset:name:ExpB_whole_cns	/uod/idr/filesets/idr0066-voigt-mesospim/20190821-ftp/ExperimentB/data/ExpB_whole_cns_AF.ome.tif
+Project:name:idr0066-voigt-mesospim/experimentB/Dataset:name:ExpB_whole_cns	/uod/idr/filesets/idr0066-voigt-mesospim/20190821-ftp/ExperimentB/data/ExpB_whole_cns_EGFP.ome.tif
+Project:name:idr0066-voigt-mesospim/experimentB/Dataset:name:ExpB_whole_cns	/uod/idr/filesets/idr0066-voigt-mesospim/20190821-ftp/ExperimentB/data/ExpB_whole_cns_MIP.ome.tif
+Project:name:idr0066-voigt-mesospim/experimentB/Dataset:name:ExpB_whole_cns_spinal_cord	/uod/idr/filesets/idr0066-voigt-mesospim/20190802-ftp/ExperimentB/data/ExpB_whole_cns_spinal_cord.ome.tif
+Project:name:idr0066-voigt-mesospim/experimentB/Dataset:name:ExpB_whole_cns_spinal_cord	/uod/idr/filesets/idr0066-voigt-mesospim/20190802-ftp/ExperimentB/data/ExpB_whole_cns_spinal_cord_MIP.ome.tif
