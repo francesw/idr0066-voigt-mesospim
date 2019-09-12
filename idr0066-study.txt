@@ -58,11 +58,11 @@ Study Person Roles	submitter
 
 # Study License and Data DOI
 
-Study License	
+Study License	CC-BY 4.0
 
-Study License URL	
+Study License URL	https://creativecommons.org/licenses/by/4.0/
 
-Study Data Publisher	
+Study Data Publisher	University of Dundee
 
 Study Data DOI	
 
