@@ -4,7 +4,7 @@ version: 1
 
 defaults:
   # Should the column be processed when creating bulk-annotations (yes/no)
-  include: no
+  include: false
   # Columns type of the bulk-annotations column
   type: string
 
@@ -12,21 +12,21 @@ defaults:
   # White space will be stripped
   split: ;
   # Should this column be included in the clients (yes/no)
-  includeclient: yes
+  includeclient: true
   # Should this column be visible in the clients, if no the column should be
   # hidden in the client but will still be indexed by the searcher (yes/no)
-  visible: yes
+  visible: true
   # Should empty values be omitted from the client display
-  omitempty: yes
+  omitempty: true
 
 columns:
 
   - name: Characteristics [Developmental Stage]
     clientname: Developmental Stage
-    include: yes
+    include: true
   - name: Comment [Image Description]
     clientname: Image Description Comment
-    include: yes
+    include: true
 
   ######################################################################
   # mapr groups
@@ -37,11 +37,11 @@ columns:
       columns:
         - name: Characteristics [Organism]
           clientname: Organism
-          include: yes
+          include: true
 
 
 advanced:
-  ignore_missing_primary_key: yes
+  ignore_missing_primary_key: true
   primary_group_keys:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
