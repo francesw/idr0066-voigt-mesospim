@@ -62,6 +62,8 @@ Study License	CC-BY 4.0
 
 Study License URL	https://creativecommons.org/licenses/by/4.0/
 
+Study Copyright	Voigt et al.
+
 Study Data Publisher	University of Dundee
 
 Study Data DOI	
