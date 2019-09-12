@@ -15,11 +15,11 @@ Study Type Term Accession	00000222
 
 Study Description	The mesoscale selective plane illumination microscope (mesoSPIM) designed in this study was tested with various cleared tissue samples.
 
-Study Organism	Mus musculus, Gallus gallus
+Study Organism	Mus musculus	Gallus gallus
 
 Study Organism Term Source REF	NCBITaxon
 
-Study Organism Term Accession	10090, 9031
+Study Organism Term Accession	10090	9031
 
 Study Experiments Number	4
 
