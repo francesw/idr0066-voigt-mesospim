@@ -90,7 +90,7 @@ Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 2048x2048x1937	Tota
 
 Experiment Example Images	
 
-Experiment Imaging Method	light sheet fluorescence microscopy, SPIM
+Experiment Imaging Method	light sheet fluorescence microscopy	SPIM
 
 Experiment Imaging Method Term Source REF	Fbbi
 
