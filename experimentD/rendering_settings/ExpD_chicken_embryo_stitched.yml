@@ -3,5 +3,6 @@ channels:
   1:
     active: true
     end: 500
+    label: Cy3
     start: 0
 version: 2
