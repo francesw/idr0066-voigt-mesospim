@@ -25,7 +25,7 @@ Study Experiments Number	4
 
 Study External URL	http://mesospim.org/
 
-Study Public Release Date 2019-09-17
+Study Public Release Date	2019-09-17
 
 
 # Study Publication
