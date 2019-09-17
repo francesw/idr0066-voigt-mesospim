@@ -1,0 +1,7 @@
+---
+channels:
+  1:
+    active: true
+    end: 1507
+    start: 0
+version: 2
