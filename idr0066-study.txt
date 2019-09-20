@@ -30,7 +30,7 @@ Study Public Release Date	2019-09-17
 
 # Study Publication
 
-Study PubMed ID	
+Study PubMed ID	31527839
 
 Study Publication Title	The mesoSPIM initiative – open-source light-sheet microscopes for imaging cleared tissue
 
