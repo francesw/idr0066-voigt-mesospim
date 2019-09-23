@@ -66,7 +66,7 @@ Study Copyright	Voigt et al.
 
 Study Data Publisher	University of Dundee
 
-Study Data DOI	
+Study Data DOI	https://doi.org/10.17867/10000127
 
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 
@@ -80,7 +80,7 @@ Experiment Number	1
 
 Comment[IDR Experiment Name]	idr0066-voigt-mesospim/experimentA
 
-Experiment Data DOI
+Experiment Data DOI	https://doi.org/10.17867/10000127a
 
 Experiment Sample Type	tissue
 
@@ -145,7 +145,7 @@ Experiment Number	2
 
 Comment[IDR Experiment Name]	idr0066-voigt-mesospim/experimentB
 
-Experiment Data DOI
+Experiment Data DOI	https://doi.org/10.17867/10000127b
 
 Experiment Sample Type	tissue
 
@@ -215,7 +215,7 @@ Experiment Number	3
 
 Comment[IDR Experiment Name]	idr0066-voigt-mesospim/experimentC
 
-Experiment Data DOI
+Experiment Data DOI	https://doi.org/10.17867/10000127c
 
 Experiment Sample Type	tissue
 
@@ -279,7 +279,7 @@ Experiment Number	4
 
 Comment[IDR Experiment Name]	idr0066-voigt-mesospim/experimentD
 
-Experiment Data DOI
+Experiment Data DOI	https://doi.org/10.17867/10000127d
 
 Experiment Sample Type	tissue
 
